@@ -14,3 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   life: 5
   damage: 10
+  speed: 20
+  enemyName: Enemy 1
