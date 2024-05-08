@@ -1,0 +1,40 @@
+{
+   "dialogs": [
+      {
+         "id": 1,
+         "text": "Text 1",
+         "next": 2,
+         "nextOption": -1
+      },
+      {
+         "id": 2,
+         "text": "Text 2",
+         "next": -2,
+         "nextOption": 1
+      },
+      {
+         "id": 3,
+         "text": "Text 3",
+         "next": -2,
+         "nextOption": 2
+      },
+      {
+         "id": 4,
+         "text": "Text 4",
+         "next": 5,
+         "nextOption": -1
+      },
+      {
+         "id": 5,
+         "text": "Text 5",
+         "next": 6,
+         "nextOption": -1
+      },
+      {
+         "id": 6,
+         "text": "Text 6",
+         "next": -1,
+         "nextOption": -1
+      }
+   ]
+}

@@ -10,10 +10,11 @@ public class Enemy : MonoBehaviour
     private int life;
     private int damage;
     private int count;
-    [SerializeField] private EnemyData enemyData;
+    private EnemyData enemyData;
 
     void Awake()
     {
+        enemyData = Resources.Load<EnemyData>("EnemyData");
         rb = GetComponent<Rigidbody>();
         life = enemyData.Life;
         damage = enemyData.Damage;
@@ -35,6 +36,7 @@ public class Enemy : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Space))
         {
             enemyData.enemyName = $"Enemy {count}";
+            count++;
         }
 
     }
