@@ -12,4 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c6fdd9ac44776141aef69000ab4600d, type: 3}
   m_Name: DialogData
   m_EditorClassIdentifier: 
-  textJson: {fileID: 4900000, guid: e45ce45bf2158b64ea677d7885d82606, type: 3}
+  textJson: {fileID: 4900000, guid: 0af265ed5e50d434c97e88fdc003d4b6, type: 3}
+  optionsJson: {fileID: 4900000, guid: 01bc8ab6857b2fa43b68ea5f8908af06, type: 3}
