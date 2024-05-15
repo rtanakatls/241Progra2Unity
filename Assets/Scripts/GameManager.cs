@@ -1,7 +1,9 @@
+using GameJolt.API;
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -19,6 +21,14 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         elapsedTime += Time.deltaTime;
+        if(elapsedTime >= 10)
+        {
+            Trophies.TryUnlock(233077, (trophyResult) =>
+            {
+                SceneManager.LoadScene("GameOverScene");
+            });
+            
+        }
         if (elapsedTime > progression*5)
         {
             progression++;

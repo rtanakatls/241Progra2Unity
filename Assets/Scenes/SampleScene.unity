@@ -550,7 +550,7 @@ PrefabInstance:
     - target: {fileID: 8806991801262896472, guid: 138cf83db7f61ca4ca00ac84271dcd72,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -666,6 +666,8 @@ MonoBehaviour:
   dialogData: {fileID: 11400000, guid: e3b7902c23ac53a418c8e82436fb3e0d, type: 2}
   dialogArray:
     dialogs: []
+  optionArray:
+    options: []
 --- !u!1 &1706491350
 GameObject:
   m_ObjectHideFlags: 0
@@ -686,7 +688,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!54 &1706491351
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -880,7 +882,7 @@ PrefabInstance:
     - target: {fileID: 8806991801262896472, guid: 138cf83db7f61ca4ca00ac84271dcd72,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -953,7 +955,7 @@ PrefabInstance:
     - target: {fileID: 8806991801262896472, guid: 138cf83db7f61ca4ca00ac84271dcd72,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
